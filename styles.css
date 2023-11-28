@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+.container {
+    color: black;
+    min-height: 100vh;
+    border: 12px solid #ecda074a;
+    background-color: #090909;
+}
+
+.container h1 {
+    font-size: 43px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    color: white;
+    margin-top: 60px;
+}
+
+form h2 {
+    font-size: 28px;
+    font-family: serif;
+    text-align: left;
+    color: white;
+}
+
+form {
+    width: 60vw;
+    max-width: 600px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding-bottom: 2em;
+    background-color: black;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 3rem 0;
+}
+
+fieldset {
+    border: none;
+    padding: 1rem 0;
+    border-bottom: 3px solid #3b3b4f;
+}
+label {
+    display: block;
+    margin: 0.5rem 0;
+    padding: 0.2rem 0;
+    font-size: 28px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+input {
+    margin: 10px 0 0 0;
+    width: 100%;
+    min-height: 3em;
+    color: #1b1b32;
+    border-radius: 4px;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.inline {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+}
+
+
+input[type="submit"] {
+    padding: 6px;
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    font-family:  'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;;
+    font-weight: bolder;
+    margin-left: 190px;
+    margin-right: auto;
+    font-size: 17px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px white;
+    margin-top: 20px;
+}
+
+input[type='submit']:hover {
+    background-color: #090909;
+    color: white;
+}
+
+
+textarea {
+    font-size: 22px;
+}
+

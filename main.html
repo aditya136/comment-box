@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comment box</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <div class="container">
+        <h1>A Digital comment box for this ICT stall</h1>
+        <h2>Fill out the form</h2>
+        <form action="https://formspree.io/f/xjvqzpbe" method="POST">
+            <fieldset>
+                <label class="name">
+                    Enter your full name: 
+                    <input id="name" placeholder="Write your full name here" name="name" type="text" required>
+                </label>
+            </fieldset>
+            <fieldset>
+                <h3>You are a</h3>
+                <label for="teacher"><input id="teacher" type="radio" name="intro-type" class="inline" required/> Teacher</label>
+                <h2>or</h2>
+                <label for = "guardian"><input id="guardian" type="radio" name="intro-type" class="inline" required/> Guardian</label>
+            </fieldset>
+            <fieldset>
+                <label class="commnet">
+                    Write a comment about our stall
+                    <textarea name="comment" placeholder="Leave us a comment" required></textarea>
+                </label>
+            </fieldset>
+            <input accesskey="Enter" type="submit" class="submit" value="Submit"/>
+        </form> 
+    </div>
+</body>
+</html>
